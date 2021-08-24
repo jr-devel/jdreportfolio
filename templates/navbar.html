@@ -1,0 +1,21 @@
+<header>
+    <nav>
+        <div class="top">
+            <h1>PORTFOLIO</h1>
+            <button id="drop_btn">
+                <img src="{{ url_for('static', filename='img_menubars.png') }}" alt="v" id="menuBars">
+                <!-- #region 
+                    <img style="display: none;" src="{{ url_for('static', filename='img_quitmenu.png') }}" alt="v" id="menuQuit">
+                -->
+                <p style="display: none; color: #333" id="menuQuit">X</p>
+            </button>
+        </div>
+        <div class="nav-links" id="drop_menu">
+            <ul>
+                <li><a href="{{ url_for('routes.index') }}">Inicio</a></li>
+                <li><a href="{{ url_for('routes.about') }}">Sobre mí</a></li>
+                <li><a href="{{ url_for('routes.contact') }}">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>

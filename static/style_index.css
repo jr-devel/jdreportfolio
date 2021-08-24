@@ -1,0 +1,307 @@
+.content {
+  background: #000;
+  width: 100%;
+}
+
+.content .presentation {
+  background-image: url(fuego.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 0px -50px 50px #000 inset;
+          box-shadow: 0px -50px 50px #000 inset;
+}
+
+.content .presentation h1 {
+  text-align: center;
+  color: #b11010;
+  padding-top: 300px;
+  -webkit-transition: all ease-in-out .5s;
+  transition: all ease-in-out .5s;
+  cursor: initial;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.content .presentation p {
+  text-align: center;
+  color: white;
+  padding-bottom: 300px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.content .repository .proyects {
+  background-image: url(fuego.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 15px;
+  padding-top: 0;
+  -webkit-box-shadow: 0px 0px 15px #000 inset;
+          box-shadow: 0px 0px 15px #000 inset;
+}
+
+.content .repository .proyects h3 {
+  background: #e61717;
+  padding: 20px;
+  margin: 10px 15px;
+  margin-top: 0;
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  -webkit-box-shadow: 0px 0px 20px #eb2c2c;
+          box-shadow: 0px 0px 20px #eb2c2c;
+  text-shadow: 1px 1px 10px #fa8b8b;
+}
+
+.content .repository .proyects h3 span {
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 1px 1px 10px #fa8b8b;
+  -webkit-transition: text-shadow ease-in .5s;
+  transition: text-shadow ease-in .5s;
+}
+
+.content .repository .proyects h3 span:hover {
+  text-shadow: 1px 1px 10px white;
+}
+
+.content .repository .proyects .proyects-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.content .repository .proyects .proyects-list ul li {
+  display: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1000px;
+  margin: 7.5px 20px;
+  background: #111;
+  border-radius: 10px;
+}
+
+.content .repository .proyects .proyects-list ul li .text {
+  padding: 15px;
+}
+
+.content .repository .proyects .proyects-list ul li .text h4 {
+  color: #e61717;
+  font-size: 1.5em;
+}
+
+.content .repository .proyects .proyects-list ul li .text p {
+  color: #fff;
+  text-align: left;
+}
+
+.content .repository .proyects .proyects-list ul li a {
+  text-decoration: none;
+  color: #fff;
+  background: #e61717;
+  padding: 10px;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  vertical-align: middle;
+  -webkit-transition: all ease-in-out .5s;
+  transition: all ease-in-out .5s;
+}
+
+.content .repository .proyects .proyects-list ul li a:hover {
+  -webkit-box-shadow: 2px 0px 15px #eb2c2c;
+          box-shadow: 2px 0px 15px #eb2c2c;
+  text-shadow: 1px 1px 10px white;
+}
+
+.content .contact-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .contact-me button {
+  background: #e61717;
+  padding: 20px;
+  margin: 50px 0;
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  border: none;
+  -webkit-box-shadow: 0px 0px 20px #eb2c2c;
+          box-shadow: 0px 0px 20px #eb2c2c;
+}
+
+.content .contact-me button a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 1px 1px 10px #fa8b8b;
+  -webkit-transition: text-shadow ease-in .5s;
+  transition: text-shadow ease-in .5s;
+}
+
+.content .contact-me button a:hover {
+  text-shadow: 1px 1px 10px white;
+}
+
+@media (max-width: 450px) {
+  .content {
+    background: #000;
+    width: 100%;
+  }
+  .content .presentation {
+    background-image: url(fuego.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .content .presentation h1 {
+    text-align: center;
+    color: #b11010;
+    padding-top: 300px;
+    -webkit-transition: all ease-in-out .5s;
+    transition: all ease-in-out .5s;
+    cursor: initial;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .content .presentation p {
+    text-align: center;
+    color: white;
+    padding-bottom: 300px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .content .repository .proyects {
+    background-image: url(fuego.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+  }
+  .content .repository .proyects h3 {
+    background: #e61717;
+    padding: 20px;
+    margin: 10px 15px;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    -webkit-box-shadow: 0px 0px 20px #eb2c2c;
+            box-shadow: 0px 0px 20px #eb2c2c;
+    text-shadow: 1px 1px 10px #fa8b8b;
+  }
+  .content .repository .proyects h3 span {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 1px 1px 10px #fa8b8b;
+    -webkit-transition: text-shadow ease-in .5s;
+    transition: text-shadow ease-in .5s;
+  }
+  .content .repository .proyects h3 span:hover {
+    text-shadow: 1px 1px 10px white;
+  }
+  .content .repository .proyects .proyects-list ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style: none;
+  }
+  .content .repository .proyects .proyects-list ul li {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: initial;
+        -ms-flex-pack: initial;
+            justify-content: initial;
+    max-width: 1000px;
+    margin: 7.5px 20px;
+    background: #111;
+    border-radius: 10px;
+  }
+  .content .repository .proyects .proyects-list ul li .text {
+    padding: 15px;
+  }
+  .content .repository .proyects .proyects-list ul li .text h4 {
+    color: #e61717;
+    font-size: 1.5em;
+  }
+  .content .repository .proyects .proyects-list ul li .text p {
+    color: #fff;
+    text-align: left;
+  }
+  .content .repository .proyects .proyects-list ul li a {
+    text-decoration: none;
+    color: #fff;
+    background: #e61717;
+    padding: 10px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    vertical-align: middle;
+    -webkit-transition: all ease-in-out .5s;
+    transition: all ease-in-out .5s;
+    text-align: center;
+  }
+  .content .repository .proyects .proyects-list ul li a:hover {
+    -webkit-box-shadow: 2px 0px 15px #eb2c2c;
+            box-shadow: 2px 0px 15px #eb2c2c;
+    text-shadow: 1px 1px 10px white;
+  }
+}
+/*# sourceMappingURL=style_index.css.map */

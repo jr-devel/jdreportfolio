@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Contacto
+{% endblock %}
+
+{% block content %}
+<div class="contact">
+    <div class="contact-group">
+        <div class="contact-text">
+            <h2>¡Vamos! Envíame un mensaje</h2>
+            <p>
+                Contactame y empecemos a trabajar juntos en un próximo gran proyecto,
+                ¿A qué estás esperando?
+            </p>
+        </div>
+        <div class="contact-form">
+            {% include 'routes/contact_form.html' %}
+        </div>
+    </div>
+</div>
+{% endblock %}

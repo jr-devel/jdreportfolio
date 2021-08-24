@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Inicio
+{% endblock %}
+
+{% block content %}
+<div class="presentation">
+    {% include 'routes/presentation.html' %}
+</div>
+<div class="repository">
+    {% include 'routes/repository.html' %}
+</div>
+<div class="contact-me">
+    <button>
+        <a href="#">¡Contáctame!</a>
+    </button>
+</div>
+{% endblock %}
+
+{% block script %}
+<script src="{{ url_for('static', filename='J_index.js') }}"></script>
+{% endblock %}
